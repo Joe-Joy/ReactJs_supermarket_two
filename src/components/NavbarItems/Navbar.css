@@ -1,0 +1,15 @@
+.heading {
+  background-color: lightcoral;
+}
+.heading ul {
+  text-align: center;
+}
+.heading li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+.heading ul li a {
+  color: black;
+  font-weight: 500;
+}
