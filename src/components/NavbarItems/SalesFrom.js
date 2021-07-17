@@ -33,7 +33,7 @@ class PurchaseForm extends Component {
   };
 
   render() {
-    const {items_code, variety_code, items_name, variety_name, items_kg} =
+    const { items_code, variety_code, items_name, variety_name, items_kg } =
       this.state;
     return (
       <div>
@@ -89,7 +89,6 @@ class PurchaseForm extends Component {
               onChange={this.changeHandler}
             />
           </div>
-          
 
           <button type="submit">Submit</button>
         </form>
