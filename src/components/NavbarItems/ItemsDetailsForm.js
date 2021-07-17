@@ -3,7 +3,6 @@ import axios from "axios";
 class ItemsDetailsForm extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       items_code: "",
       variety_code: "",
